@@ -1,46 +1,25 @@
-# DevmentorLive NextJS Starter Template
+# Using Slate in React to build a QnA Component
 
-## Getting Started
+If you enjoy my work or use my code or learn from me, please consider giving me a buck or two or five!
 
-To create an app using this starter
+❤️ https://ifyalikeit.com/get-it/62d4f777349d8b87506f95b0
 
-```bash
-npx create-next-app your-app-name -e https://github.com/devmentorlive-youtube/next-tailwind-starter
-```
+Your support helps me be able to spend more time making stuff for you, and of course, if you can't, it's no problem, the source code and videos are free, from me to you! Pay it forward some day!
 
-## This template uses [TailwindCSS](https://tailwindcss.com/)!
+A huge thank you for Netlify for hosting the demo to this lesson so it will always be available to you!
 
-## To run your server (development)
+![Powered by Netlify](https://raw.githubusercontent.com/devmentorlive-youtube/0001-datatables-in-react-sort-filter-page/main/public/powered-by-netlify-light.png)
 
-```
-cd your-app-name
-npm run dev
-```
+Building a countdown timer will teach you many things about coding interfaces in React, and I needed one for the devmentorlive streams.
 
-## Folder structure
+## What you will learn from building this project
 
-```bash
-src
-├── features
-├── pages
-│   └── index.jsx
-├── ui
-└── index.jsx
-```
+-
 
-This app uses a modified/simplified version of [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/), better suited for modern web development.
+## See this in action!
 
+https://countdown-timer-in-reactjs.netlify.app/
 
-### /ui
+## Watch the video tutorial on youtube
 
-This folder is for your "lego blocks", single purpose React components that can be combined together to make more complicated components, known as Features
-
-
-### /features
-
-This folder is for more complex components, or features. Features are created by composing many UI components and usually, state
-
-
-### /pages
-
-This folder is for navigable components. A router automagically creates urls for anything in this folder. To create a page, combine features and ui components and put them in a component in this page. Typically state is managed in the feature, and any props that come from the server are passed through pages via the return object from getServerSideProps. Those props are then passed down into features as props, or put into a context.
+- coming soon
